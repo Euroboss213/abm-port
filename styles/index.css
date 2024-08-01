@@ -11,22 +11,16 @@ body::before{
    	height: 100%;
 	z-index: -1; 
 }
+
 .navbar {
     display: flex;
     align-items: center;
     padding: 10px 20px;
 }
-
-.logo img {
-    height: 60px;
-    width: 60px;
-}
-
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
 }
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -34,31 +28,83 @@ body::before{
     padding: 0;
     order: 1;
 }
-
 .nav-links li {
     margin: 0 15px;
 }
-
 .nav-links a {
     font-size: larger;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
 }
-
 .nav-links a:hover {
     color: white;
 }
 
-.icons{
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.logout {
+    margin-left: 10px; /* Optional: spacing from the links */
+}
+.logout-icon {
+    font-size: 20px; /* Adjust size as needed */
+    color: #ddd; /* Adjust color as needed */
+}
+.logout-icon:hover {
+    color: white; /* Change color on hover */
+}
+
+.container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-
-.icons a{
+.container-big{
+    margin-left: 180px;
+    margin-top: -100px;
+    size: 20;
     color: white;
 }
+.container-big p{
+    font-size: 70px;
+}
+.container-small{
+    margin-top: -120px;
+    margin-left: 180px;
+    size: 20;
+    color: white;
+}
+.container-small p{
+    font-size: 13px;
+}
 
-.icons a:hover{
-    color: #ddd;
+.round-image {
+    margin-top: 40px;
+    margin-right: 160px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.group{
+    display: flex;
+}
+.group button{
+    width: 10%;
+    padding: 10px;
+    margin-left: 178px;
+    margin-top: 15px;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.group button:hover{
+    background-color: rgb(27, 26, 26);
 }
