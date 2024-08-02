@@ -76,6 +76,22 @@ body {
 .form-group {
     margin-bottom: 15px;
 }
+
+.form-group1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.left {
+    margin-left: 40px;
+}
+
+.right{
+    margin-right : 55px;
+}
+
 .form-group label {
     margin-left: 43px;
     display: inline-block;
@@ -85,6 +101,7 @@ body {
     margin-left: 0px;
     display: inline-block;
     margin-bottom: 5px;
+    
 }
 .form-group input,
 .form-group select,
@@ -143,6 +160,6 @@ a {
 }
 
 a:hover {
-    color: #1B1A55;
+    color: #7a79eb;
     text-decoration: underline;
 }
