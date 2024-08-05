@@ -14,9 +14,9 @@ body::before{
 
 .navbar {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    position: fixed; /* Fix the navbar at the top */
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
