@@ -1,15 +1,22 @@
-body::before{
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
     content: "";
     background-image: url(../assets/bg.jpg);
     background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     position: fixed;
     top: 0;
-	left: 0;
-	width: 100%;
-   	height: 100%;
-	z-index: -1; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .navbar {
@@ -17,11 +24,13 @@ body::before{
     align-items: center;
     padding: 10px 20px;
 }
+
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
     font-size: 40px;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -29,15 +38,18 @@ body::before{
     padding: 0;
     order: 1;
 }
+
 .nav-links li {
     margin: 0 15px;
 }
+
 .nav-links a {
     font-size: larger;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
 }
+
 .nav-links a:hover {
     color: #7a79eb;
 }
@@ -48,20 +60,21 @@ body::before{
 }
 
 .logout {
-    margin-left: 10px; /* Optional: spacing from the links */
+    margin-left: 10px;
 }
+
 .logout-icon {
-    font-size: 20px; /* Adjust size as needed */
-    color: #ddd; /* Adjust color as needed */
+    font-size: 20px;
+    color: #ddd;
 }
+
 .logout-icon:hover {
-    color: #7a79eb; /* Change color on hover */
+    color: #7a79eb;
 }
 
 .services {
     text-align: center;
     padding: 50px 20px;
-    
 }
 
 .services h2 {
@@ -88,7 +101,7 @@ body::before{
     border-radius: 10px;
     width: 250px;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(247, 244, 244, 0.5);
     border: 2px solid white;
 }
 
@@ -121,7 +134,7 @@ body::before{
 }
 
 footer {
-    margin-top: 200px; /* Pushes the footer lower by adding space above it */
+    margin-top: 200px;
     background-color: rgba(34, 34, 34, 0.8);
     padding: 40px 20px;
     color: #fff;
@@ -132,7 +145,6 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     max-width: 1200px;
     width: 100%;
@@ -168,10 +180,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* This will push the button to the bottom of its container */
-    height: 100%; /* Ensure the container takes up enough space */
+    justify-content: flex-end;
+    height: 100%;
 }
 
 .contact-method {
@@ -191,7 +201,7 @@ footer {
 }
 
 .contact-method p {
-    margin: 5;
+    margin: 0;
     font-size: 10px;
 }
 
@@ -200,7 +210,36 @@ footer {
 }
 
 .icon {
-    font-size: 35px; /* Adjust size of the icon */
-    color: #ffffff;     /* Change icon color */
-    margin-right: 10px; /* Space between icons */
+    font-size: 35px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100%;
+    background-color: #141414;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info .email, .contact-info .phone {
+    margin-top: 10px;
 }
