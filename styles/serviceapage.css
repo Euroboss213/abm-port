@@ -26,7 +26,7 @@ body::before {
 }
 
 .nav-h1 {
-    color: #ddd;
+    color: #f7f1f1;
     margin-right: auto;
     font-size: 40px;
 }
@@ -93,6 +93,7 @@ body::before {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 150px;
 }
 
 .service-box {
@@ -113,11 +114,13 @@ body::before {
 .service-box h3 {
     font-size: 22px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .service-box p {
     font-size: 16px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .btn {
@@ -132,27 +135,32 @@ body::before {
 .btn:hover {
     background-color: #A00E6E;
 }
-
-footer {
-    margin-top: 200px;
-    background-color: rgba(34, 34, 34, 0.8);
-    padding: 40px 20px;
-    color: #fff;
-    text-align: left;
-    display: flex;
-    justify-content: center;
+body, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.footer-container {
-    display: flex;
-    align-items: flex-start;
-    max-width: 1200px;
+footer {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: #fff;
+    padding: 40px 0pc;
+    text-align: center;
     width: 100%;
 }
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .contact-text {
-    flex: 1;
-    margin-right: 20px;
+    max-width: 600px;
+    text-align: left;
 }
 
 .contact-text h3 {
@@ -161,85 +169,86 @@ footer {
 }
 
 .contact-text p {
-    margin: 0 0 20px;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact-text a {
+    color: #7a79eb;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
 }
 
 .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #7a79eb;
 }
 
-.social-icons img {
-    width: 24px;
-    height: 24px;
+.icon {
+    font-size: 24px; /* Ensure the icon size is appropriate */
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    justify-content: flex-end;
-    height: 100%;
+    gap: 15px;
 }
 
 .contact-method {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 15px 20px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.2s;
+    gap: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    width: 50%;
 }
 
 .contact-method img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .contact-method p {
-    margin: 0;
-    font-size: 10px;
+    font-size: 16px;
 }
 
-.contact-method:hover {
-    transform: translateY(-5px);
-}
-
-.icon {
-    font-size: 35px;
-    color: #ffffff;
-    margin-right: 10px;
-}
-
-.container {
-    width: 100%;
-    background-color: #141414;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.social-media {
-    margin-top: 20px;
-}
-
-.social-media a {
-    margin: 0 10px;
-    color: #ffffff;
+.contact-method a {
+    color: #fff;
     text-decoration: none;
 }
 
-.contact-info .email, .contact-info .phone {
-    margin-top: 10px;
+.contact-method a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+    @media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-text, .contact-info {
+        max-width: none;
+        width: 45%;
+    }
+
+    .contact-text {
+        align-items: flex-start;
+    }
 }
