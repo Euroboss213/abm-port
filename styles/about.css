@@ -33,6 +33,7 @@ body::before{
 }
 .nav-links a {
     font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
@@ -197,8 +198,11 @@ footer {
 }
 
 .contact-method img {
-    width: 24px;
-    height: 24px;
+    width: 40x;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-method p {
