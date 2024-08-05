@@ -195,9 +195,11 @@ footer {
 }
 
 .contact-method img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 40x;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-method p {
