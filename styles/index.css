@@ -93,18 +93,27 @@ body::before{
 .group{
     display: flex;
 }
-.group button{
-    width: 10%;
-    padding: 10px;
-    margin-left: 178px;
-    margin-top: 15px;
-    background-color: rgba(50, 50, 50, 0.5);
-    color: #fff;
-    border-color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-}
 
 .group button:hover{
     background-color: rgb(27, 26, 26);
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; 
+    background-color: #0F1A29;
+    border: 1px solid white;
+    border-radius: 20px; 
+    cursor: pointer;
+    text-align: center; 
+    margin-left: 180px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #0056b3;
 }
