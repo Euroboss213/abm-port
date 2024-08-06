@@ -36,42 +36,66 @@ body::before{
 .rectangle{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 20px;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.116);
     width: 85%;
-    height: 1650px;
+    height: 1300px;
     border-radius: 30px;
 }
 .rec-top{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 15%;
+    height: 9%;
     width: 90%;
     color: white;
     font-size: 44px;
-    margin-top: -250px;
 }
 .rec-mid{
-    height: 45%;
+    height: 70%;
     width: 90%;
     color: white;
+}
+.innercont{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.innercont-top{
+    display: flex;
+    width: 100%;
+    justify-self: flex-start;
+}
+.innercont-bot{
+    display: flex;
+    justify-content: space-between  ;
+    width: 100%;
+}
+.innercont1{
+    width: 33.33%;
+}
+.innercont2{
+    width: 50%;
+}
+.innercont3{
+    width: 32%;
 }
 
 .rec-bot{
     display: flex;
-    height: 40%;
+    color: white;
+    height: 25%;
     width: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .rec-bot img{
     border-radius: 10px;
     height: 150px;
-    width: 400px;
+    width: 100%;
 }
 
 .tab{
