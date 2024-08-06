@@ -5,18 +5,18 @@ body {
     min-height: 100vh;
 }
 
-body::before {
+body::before{
     content: "";
     background-image: url(../assets/bg.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
     background-position: center;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+	left: 0;
+	width: 100%;
+   	height: 100%;
+	z-index: -1;
 }
 
 .navbar {
@@ -24,32 +24,28 @@ body::before {
     align-items: center;
     padding: 10px 20px;
 }
-
 .nav-h1 {
-    color: #f7f1f1;
+    color: #ddd;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 40px
 }
-
 .nav-links {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     order: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .nav-links li {
     margin: 0 15px;
 }
-
 .nav-links a {
     font-size: larger;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
 }
-
 .nav-links a:hover {
     color: #7a79eb;
 }
@@ -60,16 +56,14 @@ body::before {
 }
 
 .logout {
-    margin-left: 10px;
+    margin-left: 10px; /* Optional: spacing from the links */
 }
-
 .logout-icon {
-    font-size: 20px;
-    color: #ddd;
+    font-size: 20px; /* Adjust size as needed */
+    color: #ddd; /* Adjust color as needed */
 }
-
 .logout-icon:hover {
-    color: #7a79eb;
+    color: #7a79eb; /* Change color on hover */
 }
 
 .services {
