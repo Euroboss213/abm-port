@@ -20,6 +20,7 @@ body::before{
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
+    font-size: 40px;
 }
 .nav-links {
     list-style: none;
@@ -27,6 +28,7 @@ body::before{
     margin: 0;
     padding: 0;
     order: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li {
     margin: 0 15px;
@@ -38,7 +40,7 @@ body::before{
     font-weight: bold;
 }
 .nav-links a:hover {
-    color: white;
+    color: #7a79eb;
 }
 
 .logo img {
@@ -54,7 +56,7 @@ body::before{
     color: #ddd; /* Adjust color as needed */
 }
 .logout-icon:hover {
-    color: white; /* Change color on hover */
+    color: #7a79eb; /* Change color on hover */
 }
 
 .container{
@@ -63,7 +65,7 @@ body::before{
     align-items: center;
 }
 .container-big{
-    margin-left: 180px;
+    margin-left: 80px;
     margin-top: -100px;
     size: 20;
     color: white;
@@ -72,8 +74,8 @@ body::before{
     font-size: 70px;
 }
 .container-small{
-    margin-top: -120px;
-    margin-left: 180px;
+    margin-top: -140px;
+    margin-left: 80px;
     size: 20;
     color: white;
 }
@@ -83,8 +85,8 @@ body::before{
 
 .round-image {
     margin-top: 40px;
-    margin-right: 160px;
-    width: 400px;
+    margin-right: 100px;
+    width: 500px;
     height: 350px;
     border-radius: 10%;
     object-fit: cover;
@@ -102,7 +104,7 @@ body::before{
     display: inline-flex;
     justify-content: center; 
     align-items: center; 
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 16px;
     color: white; 
     background-color: #0F1A29;
@@ -110,8 +112,7 @@ body::before{
     border-radius: 20px; 
     cursor: pointer;
     text-align: center; 
-    margin-left: 180px;
-    margin-top: 20px;
+    margin-left: 80px;
     text-decoration: none;
 }
 .button:hover {
