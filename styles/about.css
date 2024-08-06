@@ -14,12 +14,12 @@ body::before{
 
 .navbar {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
 }
 .nav-h1 {
     color: #ddd;
-    margin-right: auto;
 }
 .nav-links {
     list-style: none;
@@ -112,125 +112,4 @@ body::before{
     color: white;
     margin-bottom: 60px;
     
-}
-body, h3, p {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-footer {
-    background-color: rgba(34, 34, 34, 0.9);
-    color: #fff;
-    padding: 40px 0px;
-    text-align: center;
-    width: 100%;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-}
-
-.contact-text {
-    max-width: 600px;
-    text-align: left;
-}
-
-.contact-text h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.contact-text p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.contact-text a {
-    color: #7a79eb;
-    text-decoration: none;
-}
-
-.contact-text a:hover {
-    text-decoration: underline;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 24px;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #7a79eb;
-}
-
-.icon {
-    font-size: 24px; /* Ensure the icon size is appropriate */
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-method {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    width: 50%;
-}
-
-.contact-method img {
-    width: 40x;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-method p {
-    font-size: 16px;
-}
-
-.contact-method a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.contact-method a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (min-width: 768px) {
-    .footer-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contact-text, .contact-info {
-        max-width: none;
-        width: 45%;
-    }
-
-    .contact-text {
-        align-items: flex-start;
-    }
 }
