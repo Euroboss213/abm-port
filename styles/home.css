@@ -20,8 +20,9 @@ body::before{
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
-    font-size: 40px
+    font-size: 40px;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -81,6 +82,7 @@ body::before{
 }
 .container-small p{
     font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .round-image {
