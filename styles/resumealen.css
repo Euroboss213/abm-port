@@ -42,53 +42,36 @@ body::before{
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.116);
     width: 85%;
-    height: 1150px;
+    height: 1650px;
     border-radius: 30px;
 }
 .rec-top{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 9%;
+    height: 15%;
     width: 90%;
     color: white;
     font-size: 44px;
+    margin-top: -250px;
 }
 .rec-mid{
-    height: 70%;
+    height: 45%;
     width: 90%;
     color: white;
-}
-.innercont{
-    display: flex;
-    flex-direction: column;
-}
-.innercont-top{
-    width: 100%;
-}
-.innercont-bot{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.innercont1{
-    width: 33.33%;
-}
-.innercont2{
-    width: 50%;
 }
 
 .rec-bot{
     display: flex;
-    color: white;
-    height: 25%;
-    width: 90%;
+    height: 40%;
+    width: 100%;
     align-items: center;
+    justify-content: space-around;
 }
 .rec-bot img{
     border-radius: 10px;
     height: 150px;
-    width: 335px;
+    width: 400px;
 }
 
 .tab{
