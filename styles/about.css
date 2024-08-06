@@ -82,7 +82,7 @@ body::before{
     justify-content: center;
     align-items: center;
     font-size: 45px;
-    color: white;
+    color: rgb(255, 93, 187);
     margin-top: 60px;
 }
 
@@ -91,7 +91,7 @@ body::before{
     align-items: center;
     margin-left: 50px;
     font-size: 25px;
-    color: white;
+    color: rgb(255, 93, 187);
     margin-top: -20px;
 }
 

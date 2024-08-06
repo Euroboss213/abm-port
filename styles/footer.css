@@ -70,6 +70,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: flex-end; /* Align items to the right */
 }
 
 .contact-method {
@@ -80,11 +81,12 @@ footer {
     align-items: center;
     gap: 10px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    width: 50%;
+    width: 50%; /* Set width to 100% */
+    justify-content: flex-start; /* Align content to the right */
 }
 
 .contact-method img {
-    width: 40x;
+    width: 45px; /* Fixed typo */
     height: 40px;
     display: flex;
     justify-content: center;
@@ -102,6 +104,10 @@ footer {
 
 .contact-method a:hover {
     text-decoration: underline;
+}
+
+.left {
+    margin-right: 50px;
 }
 
 /* Responsive Design */
