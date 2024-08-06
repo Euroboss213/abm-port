@@ -39,7 +39,7 @@ body::before{
     font-weight: bold;
 }
 .nav-links a:hover {
-    color: white;
+    color: #7a79eb;
 }
 
 .logo img {
@@ -55,7 +55,7 @@ body::before{
     color: #ddd; /* Adjust color as needed */
 }
 .logout-icon:hover {
-    color: white; /* Change color on hover */
+    color: #7a79eb; /* Change color on hover */
 }
 
 .container{ 
@@ -178,6 +178,10 @@ body::before{
     font-size: 5rem;
     cursor: pointer;
     user-select: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 .arrow:hover{
     color: #ffffff;
