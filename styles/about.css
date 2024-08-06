@@ -14,12 +14,13 @@ body::before{
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
 }
 .nav-h1 {
     color: #ddd;
+    margin-right: auto;
+    font-size: 40px;
 }
 .nav-links {
     list-style: none;
@@ -27,13 +28,13 @@ body::before{
     margin: 0;
     padding: 0;
     order: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li {
     margin: 0 15px;
 }
 .nav-links a {
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;

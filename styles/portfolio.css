@@ -13,7 +13,6 @@ body::before{
 }
 
 .navbar {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -21,6 +20,7 @@ body::before{
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
+    font-size: 40px;
 }
 .nav-links {
     list-style: none;
@@ -28,6 +28,7 @@ body::before{
     margin: 0;
     padding: 0;
     order: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li {
     margin: 0 15px;
@@ -39,7 +40,7 @@ body::before{
     font-weight: bold;
 }
 .nav-links a:hover {
-    color: white;
+    color: #7a79eb;
 }
 
 .logo img {
@@ -55,7 +56,7 @@ body::before{
     color: #ddd; /* Adjust color as needed */
 }
 .logout-icon:hover {
-    color: white; /* Change color on hover */
+    color: #7a79eb; /* Change color on hover */
 }
 
 .container{ 
@@ -173,12 +174,16 @@ body::before{
     height: 400px;
     align-items: center;
 }
+.arrow-con a{
+    color: #ffffff;
+}
 .arrow {
     color: #ddd;
     font-size: 5rem;
     cursor: pointer;
     user-select: none;
 }
+
 .arrow:hover{
     color: #ffffff;
 }
@@ -358,6 +363,11 @@ body::before{
     display: flex;
     align-self: flex-end;
     justify-content: flex-end;
+}
+
+.but a{
+    color: white;
+    text-decoration: none;
 }
 .but button{
     margin-right: 30px;

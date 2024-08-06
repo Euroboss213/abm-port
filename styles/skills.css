@@ -12,6 +12,10 @@ body::before{
 	z-index: -1; 
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 .navbar {
     display: flex;
     align-items: center;
