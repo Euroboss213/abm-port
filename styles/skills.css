@@ -76,3 +76,114 @@ body::before{
 .tab{
     padding: 0px 10px;
 }
+
+@media only screen and (min-width:601px) and (max-width: 1024px) {
+    
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.116);
+        width: 70%;
+        height: 700px;
+        border-radius: 30px;
+    }
+    .rec-top{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 8%;
+        width: 90%;
+        color: white;
+        font-size: 40px;
+    }
+    .rec-mid{
+        height: 62%;
+        width: 90%;
+        color: white;
+    }
+    
+    .rec-bot{
+        display: flex;
+        height: 30%;
+        width: 90%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rec-bot img{
+        border-radius: 10px;
+        height: 60%;
+        width: 30%;
+    }
+    
+    .tab{
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.116);
+        width: 70%;
+        height: 700px;
+        border-radius: 30px;
+    }
+    .rec-top{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 8%;
+        width: 90%;
+        color: white;
+        font-size: 33px;
+    }
+    .rec-mid{
+        height: 62%;
+        width: 90%;
+        color: white;
+    }
+    .rec-mid h3{
+        font-size: 16px;
+    }
+    .rec-mid p{
+        font-size: 12px;
+    }
+    
+    .rec-bot{
+        display: flex;
+        height: 30%;
+        width: 90%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rec-bot img{
+        border-radius: 10px;
+        height: 60%;
+        width: 30%;
+    }
+    
+    .tab{
+        padding: 0px 10px;
+    }
+}
