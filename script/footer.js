@@ -9,7 +9,7 @@ function renderFooter(){
                 <p>
                     Feel free to get in touch by emailing us at<br>
                     <a href="mailto:af@gmail.com">af@gmail.com</a> or by reaching out via our<br>
-                    Phone Number. We look forward to hearing from you!
+                    Phone Number. We look forward to <br>hearing from you!
                 </p>
                 <div class="social-icons">
                     <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f icon"></i></a>
