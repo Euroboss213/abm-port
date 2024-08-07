@@ -1,62 +1,73 @@
-body::before{
+body::before {
     content: "";
     background-image: url(../assets/bg.jpg);
     background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     position: fixed;
     top: 0;
-	left: 0;
-	width: 100%;
-   	height: 100%;
-	z-index: -1;
-}
-
-.navbar {
-    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .navbar {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-}
-.nav-h1 {
+  }
+  
+  .nav-h1 {
     color: #ddd;
     margin-right: auto;
-}
-.nav-links {
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+  
+  .nav-links {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     order: 1;
-}
-.nav-links li {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-links li {
     margin: 0 15px;
-}
-.nav-links a {
+  }
+  
+  .nav-links a {
     font-size: larger;
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
-}
-.nav-links a:hover {
+    font-family: sans-serif;
+  }
+  
+  .nav-links a:hover {
     color: #7a79eb;
-}
-
-.logo img {
+  }
+  
+  .logo img {
     height: 100px;
     width: 100px;
-}
-
-.logout {
+  }
+  
+  .logout {
     margin-left: 10px; /* Optional: spacing from the links */
-}
-.logout-icon {
+  }
+  
+  .logout-icon {
     font-size: 20px; /* Adjust size as needed */
     color: #ddd; /* Adjust color as needed */
-}
-.logout-icon:hover {
+  }
+  
+  .logout-icon:hover {
     color: #7a79eb; /* Change color on hover */
-}
+  }
 
 .text{
     display: flex;
