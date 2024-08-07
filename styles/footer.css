@@ -1,0 +1,251 @@
+body, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-text a {
+    color: #7a79eb;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #7a79eb;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
+    width: 250px;
+}
+
+.contact-method {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.contact-method img {
+    width: 45px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-method p {
+    font-size: 16px;
+}
+
+.contact-method a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+@media only screen and (min-width:600px) and (max-width: 1024px) {
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-end;
+        width: 250px;
+        margin-right: 80px;
+    }
+
+    .contact-text {
+        max-width: 600px;
+        text-align: left;
+        margin-left: 80px;
+    }
+}
+    @media only screen and (max-width:600px){
+
+ footer {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-text {
+    max-width: 600px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.contact-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.contact-text a {
+    color: #7a79eb;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #7a79eb;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: flex-end;
+    width: 250px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.contact-method {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    width: 90%; 
+    justify-content: flex-start;
+}
+
+.contact-method img {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-method p {
+    font-size: 16px;
+}
+
+.contact-method a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin-right: 50px;
+}
+    }
+
