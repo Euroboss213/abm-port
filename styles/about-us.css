@@ -1,4 +1,3 @@
-/* Global Styles */
 body::before {
     content: "";
     background-image: url(../assets/bg.jpg);
@@ -245,3 +244,106 @@ body::before {
     text-decoration: underline;
   }
   
+  @media only screen and (min-width:600px) and (max-width: 1024px) {
+
+    navbar {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav-h1 {
+        color: #ddd;
+        margin-right: auto;
+        font-size: 40px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        order: 1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-links li {
+        margin: 0 6px;
+    }
+    .nav-links a {
+        font-size: larger;
+        text-decoration: none;
+        color: #ddd;
+        font-weight: bold;
+    }
+    .nav-links a:hover {
+        color: #7a79eb;
+    }
+    
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .logout {
+        margin-left: 10px; /* Optional: spacing from the links */
+    }
+    .logout-icon {
+        font-size: 20px; /* Adjust size as needed */
+        color: #ddd; /* Adjust color as needed */
+    }
+    .logout-icon:hover {
+        color: #7a79eb; /* Change color on hover */
+    }
+
+  }
+
+    @media only screen and (max-width:600px){
+    
+    navbar {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav-h1 {
+        color: #ddd;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        order: 1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-links li {
+        margin: 0 6px;
+    }
+    .nav-links a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #ddd;
+        font-weight: bold;
+    }
+    .nav-links a:hover {
+        color: #7a79eb;
+    }
+    
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .logout {
+        margin-left: 10px; /* Optional: spacing from the links */
+    }
+    .logout-icon {
+        font-size: 20px; /* Adjust size as needed */
+        color: #ddd; /* Adjust color as needed */
+    }
+    .logout-icon:hover {
+        color: #7a79eb; /* Change color on hover */
+    }
+
+  }
