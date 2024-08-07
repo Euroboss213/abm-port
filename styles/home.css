@@ -73,12 +73,7 @@ body::before{
     flex-direction: column;
     width: 50%;
 }
-.conleft-top{
 
-}
-.conleft-bot{
-
-}
 .container-right{
     display: flex;
     align-items: center;
