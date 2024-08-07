@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    min-height: 100vh;
-}
-
 body::before{
     content: "";
     background-image: url(../assets/bg.jpg);
@@ -27,8 +20,11 @@ body::before{
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
-    font-size: 40px
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -45,6 +41,7 @@ body::before{
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
+    font-family: sans-serif;
 }
 .nav-links a:hover {
     color: #7a79eb;

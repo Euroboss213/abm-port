@@ -8,7 +8,7 @@ function renderFooter(){
                 <h3>Get in Touch</h3>
                 <p>
                     Feel free to get in touch by emailing us at<br>
-                    <a href="mailto:company@gmail.com">company@gmail.com</a> or by reaching out via our<br>
+                    <a href="mailto:af@gmail.com">af@gmail.com</a> or by reaching out via our<br>
                     Phone Number. We look forward to hearing from you!
                 </p>
                 <div class="social-icons">
@@ -21,7 +21,7 @@ function renderFooter(){
             <div class="contact-info">
                 <div class="contact-method">
                     <img src="../assets/email.png" alt="Email Icon">
-                    <p><a href="mailto:company@email.com">company@email.com</a></p>
+                    <p><a href="mailto:company@email.com">af@email.com</a></p>
                 </div>
                 <div class="contact-method">
                     <img src="../assets/phone.png" alt="Phone Icon">

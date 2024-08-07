@@ -13,7 +13,6 @@ body::before{
 }
 
 .navbar {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -21,13 +20,18 @@ body::before{
 .nav-h1 {
     color: #ddd;
     margin-right: auto;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     order: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li {
     margin: 0 15px;
@@ -37,6 +41,7 @@ body::before{
     text-decoration: none;
     color: #ddd;
     font-weight: bold;
+    font-family: sans-serif;
 }
 .nav-links a:hover {
     color: #7a79eb;
