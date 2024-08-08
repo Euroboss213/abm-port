@@ -114,19 +114,20 @@ body::before{
 .rectangle{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.116);
     width: 85%;
-    height: 1400px;
+    height: 1550px;
     border-radius: 30px;
 }
 .rec-top{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    text-align: center;
     height: 9%;
     width: 90%;
     color: white;
@@ -179,8 +180,6 @@ body::before{
 .tab{
     padding: 0px 10px;
 }
-}
-
 
 
 @media only screen and (max-width:600px){
@@ -205,7 +204,8 @@ body::before{
     .rec-top{
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
+        text-align: center;
         height: 9%;
         width: 90%;
         color: white;
@@ -242,6 +242,7 @@ body::before{
     .innercont2{
         width: 60%;
         font-size: 18px;
+       
     }
     .innercont3{
         width: 32%;
@@ -265,4 +266,4 @@ body::before{
         padding: 0px 10px;
     }
     }
-    
+}
