@@ -42,7 +42,7 @@ body::before{
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.116);
     width: 85%;
-    height: 530px;
+    height: 100%;
     border-radius: 30px;
 }
 .rec-top{
@@ -69,16 +69,16 @@ body::before{
 }
 .rec-bot img{
     border-radius: 10px;
-    height: 90%;
+    height: 150px;
     width: 30%;
+    margin-bottom: 10px;
 }
 
 .tab{
     padding: 0px 10px;
 }
 
-
-@media only screen and (min-width:600px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px){
     .container{
         display: flex;
         width: 100%;
@@ -94,92 +94,106 @@ body::before{
         border: 2px solid white;
         background-color: rgba(255, 255, 255, 0.116);
         width: 85%;
-        height: 600px;
+        height: 100%;
         border-radius: 30px;
     }
     .rec-top{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         height: 15%;
         width: 90%;
         color: white;
-        font-size: 44px;
+        font-size: x-large;
+        margin-top: 15px;
     }
     .rec-mid{
         height: 45%;
         width: 90%;
         color: white;
-        font-size: 20px;
     }
-    
+    .rec-mid h3{
+        font-size: medium;
+    }
+    .rec-mid{
+        font-size: smaller;
+    }
+
     .rec-bot{
         display: flex;
         height: 40%;
         width: 90%;
         align-items: center;
         justify-content: space-around;
-        font-size: 20px;
     }
     .rec-bot img{
         border-radius: 10px;
-        height: 30%;
+        height: 90px;
         width: 30%;
+        margin-bottom: 15px;
     }
     
     .tab{
         padding: 0px 10px;
     }
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
     
-    @media only screen and (min-width:600px){
-        .container{
-            display: flex;
-            width: 100%;
-            justify-content: center;
-        }
-        
-        .rectangle{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-            border: 2px solid white;
-            background-color: rgba(255, 255, 255, 0.116);
-            width: 85%;
-            height: 700px;
-            border-radius: 30px;
-        }
-        .rec-top{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 15%;
-            width: 90%;
-            color: white;
-            font-size: 44px;
-        }
-        .rec-mid{
-            height: 45%;
-            width: 90%;
-            color: white;
-        }
-        
-        .rec-bot{
-            display: flex;
-            height: 50%;
-            width: 90%;
-            align-items: center;
-            justify-content: space-around;
-        }
-        .rec-bot img{
-            border-radius: 10px;
-            height: 30%;
-            width: 30%;
-        }
-        
-        .tab{
-            padding: 0px 10px;
-        }
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.116);
+        width: 85%;
+        height: 100%;
+        border-radius: 30px;
     }
+    .rec-top{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 15%;
+        width: 90%;
+        color: white;
+        font-size: x-large;
+        margin-top: 15px;
     }
+    .rec-mid{
+        height: 45%;
+        width: 90%;
+        color: white;
+    }
+    .rec-mid h3{
+        font-size: medium;
+    }
+    .rec-mid{
+        font-size: smaller;
+    }
+
+    .rec-bot{
+        display: flex;
+        height: 40%;
+        width: 90%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rec-bot img{
+        border-radius: 10px;
+        height: 90px;
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    
+    .tab{
+        padding: 0px 10px;
+    }
+}
