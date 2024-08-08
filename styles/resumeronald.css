@@ -172,6 +172,7 @@ body::before{
     justify-content: center;
 }
 .rec-bot img{
+    position: auto;
     border-radius: 10px;
     height: 150px;
     width: 100%;
@@ -189,24 +190,25 @@ body::before{
         display: flex;
         width: 100%;
         justify-content: center;
+        align-items: flex-end;
     }
     
     .rectangle{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-end;
         margin-top: 20px;
         border: 2px solid white;
         background-color: rgba(255, 255, 255, 0.116);
-        width: 90%;
-        height: 2300px;
+        width: 85%;
+        height: 100%;
         border-radius: 30px;
     }
     .rec-top{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         text-align: center;
         height: 9%;
         width: 90%;
@@ -220,36 +222,42 @@ body::before{
         width: 90%;
         color: white;
         font-size: 20px;
+        align-items: flex-end;
     }
     .innercont{
-        display: flex;
         flex-direction: column;
         width: 90%;
         font-size: 20px;
+        align-items: flex-end;
     }
     .innercont-top{
         display: flex;
         width: 100%;
         justify-self: flex-start;
         font-size: 20px;
+        align-items: flex-end;
     }
     .innercont-bot{
         display: flex;
         justify-content: space-between;
         width: 100%;
         font-size: 20px;
+        
     }
     .innercont1{
         width: 70%;
         font-size: 18px;
+    
     }
     .innercont2{
         width: 60%;
         font-size: 18px;
         margin-left: 3%;
+        
     }
     .innercont3{
         width: 32%;
+        
     }
     
     .rec-bot{
@@ -257,13 +265,15 @@ body::before{
         color: white;
         height: 25%;
         width: 100%;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
+        align-items: flex-end;
     }
     .rec-bot img{
         border-radius: 10px;
         height: 150px;
         width: 100%;
+        
     }
     
     .tab{
