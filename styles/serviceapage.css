@@ -18,20 +18,26 @@ body::before{
     padding: 10px 20px;
 }
 .nav-h1 {
+    display: flex;
     color: #ddd;
     margin-right: auto;
     font-size: 40px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-links {
+    display: flex;
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     order: 1;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 .nav-links li {
     margin: 0 15px;
@@ -46,6 +52,20 @@ body::before{
 .nav-links a:hover {
     color: #7a79eb;
 }
+.nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-container1{
+    display: flex;
+    width: 60%;
+}
+.nav-container2{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
 
 .logo img {
     height: 100px;
@@ -53,14 +73,14 @@ body::before{
 }
 
 .logout {
-    margin-left: 10px;
+    margin-left: 10px; /* Optional: spacing from the links */
 }
 .logout-icon {
-    font-size: 20px; 
-    color: #ddd; 
+    font-size: 20px; /* Adjust size as needed */
+    color: #ddd; /* Adjust color as needed */
 }
 .logout-icon:hover {
-    color: #7a79eb; 
+    color: #7a79eb; /* Change color on hover */
 }
 
 .services {
@@ -234,6 +254,78 @@ footer {
 
 
 @media only screen and (min-width:600px) and (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav-h1 {
+        display: flex;
+        margin: 0;
+        color: #ddd;
+        font-size: 60px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-links {
+        display: flex;
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        order: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .nav-links li {
+        margin: 0 0px;
+    }
+    .nav-links a {
+        font-size: 25px;
+        text-decoration: none;
+        color: #ddd;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .nav-links a:hover {
+        color: #7a79eb;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .nav-container2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+    .logout {
+        margin-left: 10px; /* Optional: spacing from the links */
+    }
+    .logout-icon {
+        font-size: 26px; /* Adjust size as needed */
+        color: #ddd; /* Adjust color as needed */
+    }
+    .logout-icon:hover {
+        color: #7a79eb; /* Change color on hover */
+    }
     .service-container {
         display: flex;
         justify-content: center;
@@ -389,8 +481,79 @@ footer {
 
 
 
-
-@media only screen and (min-width:600px){
+}
+@media only screen and (max-width:600px){
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav-h1 {
+        display: flex;
+        margin: 0;
+        color: #ddd;
+        font-size: 25px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-links {
+        display: flex;
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        order: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-links li {
+        margin: 0 10px;
+    }
+    .nav-links a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #ddd;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .nav-links a:hover {
+        color: #7a79eb;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .nav-container2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    .logout {
+        margin-left: 10px; /* Optional: spacing from the links */
+    }
+    .logout-icon {
+        font-size: 14px; /* Adjust size as needed */
+        color: #ddd; /* Adjust color as needed */
+    }
+    .logout-icon:hover {
+        color: #7a79eb; /* Change color on hover */
+    }
         .service-container{
             display: flex;
             justify-content: center;
@@ -544,23 +707,4 @@ footer {
         .contact-method a:hover {
             text-decoration: underline;
         }
-    }
-    
-
-/* Responsive Design */
-    @media (min-width: 768px){
-    .footer-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contact-text, .contact-info {
-        max-width: none;
-        width: 45%;
-    }
-
-    .contact-text {
-        align-items: flex-start;
-    }
-}
 }
