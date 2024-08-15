@@ -483,7 +483,7 @@ footer {
 
 }
 @media only screen and (max-width:600px){
-      .navbar {
+    .navbar {
         display: flex;
         align-items: center;
         padding: 10px 20px;
@@ -492,7 +492,7 @@ footer {
         display: flex;
         margin: 0;
         color: #ddd;
-        font-size: 40px;
+        font-size: 25px;
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
         align-items: center;
@@ -511,10 +511,10 @@ footer {
         justify-content: center;
     }
     .nav-links li {
-        margin: 0 15px;
+        margin: 0 10px;
     }
     .nav-links a {
-        font-size: larger;
+        font-size: 13px;
         text-decoration: none;
         color: #ddd;
         font-weight: bold;
@@ -541,18 +541,23 @@ footer {
         width: 100%;
     }
     .logo img {
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
     .logout {
         margin-left: 10px; /* Optional: spacing from the links */
     }
     .logout-icon {
-        font-size: 15px; /* Adjust size as needed */
+        font-size: 14px; /* Adjust size as needed */
         color: #ddd; /* Adjust color as needed */
     }
     .logout-icon:hover {
         color: #7a79eb; /* Change color on hover */
+    }
+
+    .services h2{
+        font-size: 40px;
+        margin-bottom: 30px;
     }
         .service-container{
             display: flex;
@@ -571,7 +576,6 @@ footer {
             text-align: center;
             box-shadow: 0 0 6px rgba(247, 244, 244, 0.5);
             border: 2px solid white;
-            margin-bottom: 30px; /* Optional: add margin for spacing */
         }
         
         .service-box img {
